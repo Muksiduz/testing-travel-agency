@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Navigation arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff !important; /* change arrow color */
+  transform: scale(0.8); /* increase size */
+}
+
+/* Optional: circular background */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 5px;
+  height: 5px;
+}
+
+/* Arrow icon size */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
