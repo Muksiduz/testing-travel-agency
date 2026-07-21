@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/contact";
+const API = "https://testing-travel-agency.onrender.com/api/contact";
 
 const useContactStore = create((set) => ({
   contacts: [],
